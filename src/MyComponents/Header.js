@@ -24,14 +24,21 @@ export default function Header(props) {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 {/* // eslint-disable-next-line */}
-                <a className="nav-link active" aria-current="page" href="https://github.com/rajsinghparihar">
+                <a
+                  className="nav-link active"
+                  aria-current="page"
+                  href="https://rajsinghparihar.netlify.app"
+                >
                   About
                 </a>
               </li>
               <li className="nav-item">
                 {/* // eslint-disable-next-line */}
-                <a className="nav-link" href="https://rajsinghparihar.netlify.app">
-                  KhiKhiKhi
+                <a
+                  className="nav-link"
+                  href="https://github.com/rajsinghparihar"
+                >
+                  Github
                 </a>
               </li>
             </ul>
